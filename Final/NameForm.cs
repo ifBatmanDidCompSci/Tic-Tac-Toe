@@ -13,6 +13,7 @@ namespace Final
         SoundPlayer sound = new SoundPlayer("batmanSTTrim.wav");
         //bool variables that will be useful if the user chooses to play against a computer
         bool easyDifficulty, hardDifficulty = false;
+        string lkajdlkjal;
         public NameForm()
         {
             InitializeComponent();
