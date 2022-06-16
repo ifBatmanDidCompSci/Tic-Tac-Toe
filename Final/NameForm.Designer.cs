@@ -30,14 +30,10 @@
         {
             this.player1pvpLab = new System.Windows.Forms.Label();
             this.nameLab = new System.Windows.Forms.Label();
-            this.enterButton = new System.Windows.Forms.Button();
-            this.player1pvpTB = new System.Windows.Forms.TextBox();
             this.pvpCB = new System.Windows.Forms.CheckBox();
             this.pvcCB = new System.Windows.Forms.CheckBox();
-            this.player2Lab = new System.Windows.Forms.Label();
-            this.player2TB = new System.Windows.Forms.TextBox();
-            this.player1pvcTB = new System.Windows.Forms.TextBox();
-            this.player1pvcLab = new System.Windows.Forms.Label();
+            this.hardDifficultyRB = new System.Windows.Forms.RadioButton();
+            this.easyDifficultyRB = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // player1pvpLab
@@ -61,27 +57,6 @@
             this.nameLab.Text = "Name(s)";
             this.nameLab.Visible = false;
             // 
-            // enterButton
-            // 
-            this.enterButton.Location = new System.Drawing.Point(354, 245);
-            this.enterButton.Name = "enterButton";
-            this.enterButton.Size = new System.Drawing.Size(194, 78);
-            this.enterButton.TabIndex = 3;
-            this.enterButton.Text = "Enter";
-            this.enterButton.UseVisualStyleBackColor = true;
-            this.enterButton.Visible = false;
-            this.enterButton.Click += new System.EventHandler(this.enterButton_Click);
-            // 
-            // player1pvpTB
-            // 
-            this.player1pvpTB.Location = new System.Drawing.Point(125, 94);
-            this.player1pvpTB.Multiline = true;
-            this.player1pvpTB.Name = "player1pvpTB";
-            this.player1pvpTB.Size = new System.Drawing.Size(284, 38);
-            this.player1pvpTB.TabIndex = 4;
-            this.player1pvpTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.player1pvpTB.Visible = false;
-            // 
             // pvpCB
             // 
             this.pvpCB.AutoSize = true;
@@ -98,7 +73,7 @@
             // 
             this.pvcCB.AutoSize = true;
             this.pvcCB.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.pvcCB.Location = new System.Drawing.Point(147, 178);
+            this.pvcCB.Location = new System.Drawing.Point(147, 186);
             this.pvcCB.Name = "pvcCB";
             this.pvcCB.Size = new System.Drawing.Size(298, 42);
             this.pvcCB.TabIndex = 6;
@@ -106,60 +81,39 @@
             this.pvcCB.UseVisualStyleBackColor = true;
             this.pvcCB.CheckedChanged += new System.EventHandler(this.pvcCB_CheckedChanged);
             // 
-            // player2Lab
+            // hardDifficultyRB
             // 
-            this.player2Lab.AutoSize = true;
-            this.player2Lab.Location = new System.Drawing.Point(228, 150);
-            this.player2Lab.Name = "player2Lab";
-            this.player2Lab.Size = new System.Drawing.Size(74, 25);
-            this.player2Lab.TabIndex = 7;
-            this.player2Lab.Text = "Player 2";
-            this.player2Lab.Visible = false;
+            this.hardDifficultyRB.AutoSize = true;
+            this.hardDifficultyRB.Location = new System.Drawing.Point(182, 286);
+            this.hardDifficultyRB.Name = "hardDifficultyRB";
+            this.hardDifficultyRB.Size = new System.Drawing.Size(151, 29);
+            this.hardDifficultyRB.TabIndex = 7;
+            this.hardDifficultyRB.TabStop = true;
+            this.hardDifficultyRB.Text = "Hard Difficulty";
+            this.hardDifficultyRB.UseVisualStyleBackColor = true;
+            this.hardDifficultyRB.Visible = false;
             // 
-            // player2TB
+            // easyDifficultyRB
             // 
-            this.player2TB.Location = new System.Drawing.Point(125, 178);
-            this.player2TB.Multiline = true;
-            this.player2TB.Name = "player2TB";
-            this.player2TB.Size = new System.Drawing.Size(284, 42);
-            this.player2TB.TabIndex = 8;
-            this.player2TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.player2TB.Visible = false;
-            // 
-            // player1pvcTB
-            // 
-            this.player1pvcTB.Location = new System.Drawing.Point(125, 135);
-            this.player1pvcTB.Multiline = true;
-            this.player1pvcTB.Name = "player1pvcTB";
-            this.player1pvcTB.Size = new System.Drawing.Size(284, 40);
-            this.player1pvcTB.TabIndex = 9;
-            this.player1pvcTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.player1pvcTB.Visible = false;
-            this.player1pvcTB.TextChanged += new System.EventHandler(this.player1pvcTB_TextChanged);
-            // 
-            // player1pvcLab
-            // 
-            this.player1pvcLab.AutoSize = true;
-            this.player1pvcLab.Location = new System.Drawing.Point(228, 107);
-            this.player1pvcLab.Name = "player1pvcLab";
-            this.player1pvcLab.Size = new System.Drawing.Size(74, 25);
-            this.player1pvcLab.TabIndex = 10;
-            this.player1pvcLab.Text = "Player 1";
-            this.player1pvcLab.Visible = false;
+            this.easyDifficultyRB.AutoSize = true;
+            this.easyDifficultyRB.Location = new System.Drawing.Point(182, 234);
+            this.easyDifficultyRB.Name = "easyDifficultyRB";
+            this.easyDifficultyRB.Size = new System.Drawing.Size(147, 29);
+            this.easyDifficultyRB.TabIndex = 8;
+            this.easyDifficultyRB.TabStop = true;
+            this.easyDifficultyRB.Text = "Easy Difficulty";
+            this.easyDifficultyRB.UseVisualStyleBackColor = true;
+            this.easyDifficultyRB.Visible = false;
             // 
             // NameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(560, 335);
-            this.Controls.Add(this.player1pvcLab);
-            this.Controls.Add(this.player1pvcTB);
-            this.Controls.Add(this.player2TB);
-            this.Controls.Add(this.player2Lab);
+            this.ClientSize = new System.Drawing.Size(567, 339);
+            this.Controls.Add(this.easyDifficultyRB);
+            this.Controls.Add(this.hardDifficultyRB);
             this.Controls.Add(this.pvcCB);
             this.Controls.Add(this.pvpCB);
-            this.Controls.Add(this.player1pvpTB);
-            this.Controls.Add(this.enterButton);
             this.Controls.Add(this.nameLab);
             this.Controls.Add(this.player1pvpLab);
             this.Name = "NameForm";
@@ -174,13 +128,9 @@
 
         private Label player1pvpLab;
         private Label nameLab;
-        private Button enterButton;
-        private Label player2Lab;
-        private Label player1pvcLab;
-        public TextBox player1pvpTB;
         public CheckBox pvpCB;
         public CheckBox pvcCB;
-        public TextBox player2TB;
-        public TextBox player1pvcTB;
+        private RadioButton hardDifficultyRB;
+        private RadioButton easyDifficultyRB;
     }
 }

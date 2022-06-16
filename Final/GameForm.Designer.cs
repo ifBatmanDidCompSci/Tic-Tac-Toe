@@ -103,9 +103,9 @@
             // 
             this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(192, 1);
+            this.label4.Location = new System.Drawing.Point(274, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(18, 452);
+            this.label4.Size = new System.Drawing.Size(18, 843);
             this.label4.TabIndex = 3;
             this.label4.Text = "label4";
             // 
@@ -113,9 +113,9 @@
             // 
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(401, 1);
+            this.label1.Location = new System.Drawing.Point(564, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 452);
+            this.label1.Size = new System.Drawing.Size(19, 834);
             this.label1.TabIndex = 4;
             this.label1.Text = "label1";
             // 
@@ -123,9 +123,9 @@
             // 
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(7, 132);
+            this.label2.Location = new System.Drawing.Point(7, 273);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(598, 23);
+            this.label2.Size = new System.Drawing.Size(842, 23);
             this.label2.TabIndex = 5;
             this.label2.Text = "label2";
             // 
@@ -133,57 +133,57 @@
             // 
             this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(12, 296);
+            this.label3.Location = new System.Drawing.Point(12, 560);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(589, 22);
+            this.label3.Size = new System.Drawing.Size(837, 22);
             this.label3.TabIndex = 6;
             this.label3.Text = "label3";
             // 
             // PB7Test
             // 
-            this.PB7Test.Location = new System.Drawing.Point(7, 321);
+            this.PB7Test.Location = new System.Drawing.Point(6, 586);
             this.PB7Test.Name = "PB7Test";
-            this.PB7Test.Size = new System.Drawing.Size(179, 117);
+            this.PB7Test.Size = new System.Drawing.Size(270, 258);
             this.PB7Test.TabIndex = 15;
             this.PB7Test.TabStop = false;
             this.PB7Test.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // PB4Test
             // 
-            this.PB4Test.Location = new System.Drawing.Point(7, 167);
+            this.PB4Test.Location = new System.Drawing.Point(12, 299);
             this.PB4Test.Name = "PB4Test";
-            this.PB4Test.Size = new System.Drawing.Size(179, 117);
+            this.PB4Test.Size = new System.Drawing.Size(256, 258);
             this.PB4Test.TabIndex = 16;
             this.PB4Test.TabStop = false;
             this.PB4Test.Click += new System.EventHandler(this.PB4Test_Click);
             // 
             // PB1Test
             // 
-            this.PB1Test.Location = new System.Drawing.Point(12, 3);
+            this.PB1Test.Location = new System.Drawing.Point(8, 9);
             this.PB1Test.Name = "PB1Test";
-            this.PB1Test.Size = new System.Drawing.Size(179, 117);
+            this.PB1Test.Size = new System.Drawing.Size(260, 260);
             this.PB1Test.TabIndex = 17;
             this.PB1Test.TabStop = false;
             this.PB1Test.Click += new System.EventHandler(this.PB1Test_Click);
             // 
             // PB1O
             // 
-            this.PB1O.BackgroundImage = global::Final.Properties.Resources.o;
+            this.PB1O.BackgroundImage = global::Final.Properties.Resources.joker3;
             this.PB1O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB1O.Location = new System.Drawing.Point(7, 3);
+            this.PB1O.Location = new System.Drawing.Point(6, 18);
             this.PB1O.Name = "PB1O";
-            this.PB1O.Size = new System.Drawing.Size(179, 117);
+            this.PB1O.Size = new System.Drawing.Size(260, 246);
             this.PB1O.TabIndex = 18;
             this.PB1O.TabStop = false;
             this.PB1O.Visible = false;
             // 
             // PB1X
             // 
-            this.PB1X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB1X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB1X.Location = new System.Drawing.Point(7, 3);
+            this.PB1X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB1X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB1X.Location = new System.Drawing.Point(6, 18);
             this.PB1X.Name = "PB1X";
-            this.PB1X.Size = new System.Drawing.Size(179, 117);
+            this.PB1X.Size = new System.Drawing.Size(260, 246);
             this.PB1X.TabIndex = 19;
             this.PB1X.TabStop = false;
             this.PB1X.Visible = false;
@@ -191,230 +191,230 @@
             // 
             // PB2Test
             // 
-            this.PB2Test.Location = new System.Drawing.Point(216, 3);
+            this.PB2Test.Location = new System.Drawing.Point(298, 12);
             this.PB2Test.Name = "PB2Test";
-            this.PB2Test.Size = new System.Drawing.Size(179, 117);
+            this.PB2Test.Size = new System.Drawing.Size(260, 258);
             this.PB2Test.TabIndex = 20;
             this.PB2Test.TabStop = false;
             this.PB2Test.Click += new System.EventHandler(this.PB2_Click);
             // 
             // PB2X
             // 
-            this.PB2X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB2X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB2X.Location = new System.Drawing.Point(216, 1);
+            this.PB2X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB2X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB2X.Location = new System.Drawing.Point(298, 12);
             this.PB2X.Name = "PB2X";
-            this.PB2X.Size = new System.Drawing.Size(179, 117);
+            this.PB2X.Size = new System.Drawing.Size(260, 258);
             this.PB2X.TabIndex = 21;
             this.PB2X.TabStop = false;
             this.PB2X.Visible = false;
             // 
             // PB4O
             // 
-            this.PB4O.BackgroundImage = global::Final.Properties.Resources.o;
+            this.PB4O.BackgroundImage = global::Final.Properties.Resources.joker3;
             this.PB4O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB4O.Location = new System.Drawing.Point(7, 158);
+            this.PB4O.Location = new System.Drawing.Point(8, 299);
             this.PB4O.Name = "PB4O";
-            this.PB4O.Size = new System.Drawing.Size(179, 117);
+            this.PB4O.Size = new System.Drawing.Size(260, 258);
             this.PB4O.TabIndex = 22;
             this.PB4O.TabStop = false;
             this.PB4O.Visible = false;
             // 
             // PB2O
             // 
-            this.PB2O.BackgroundImage = global::Final.Properties.Resources.o;
-            this.PB2O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB2O.Location = new System.Drawing.Point(216, 3);
+            this.PB2O.BackgroundImage = global::Final.Properties.Resources.joker3;
+            this.PB2O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB2O.Location = new System.Drawing.Point(298, 12);
             this.PB2O.Name = "PB2O";
-            this.PB2O.Size = new System.Drawing.Size(179, 117);
+            this.PB2O.Size = new System.Drawing.Size(260, 258);
             this.PB2O.TabIndex = 23;
             this.PB2O.TabStop = false;
             this.PB2O.Visible = false;
             // 
             // PB3Test
             // 
-            this.PB3Test.Location = new System.Drawing.Point(426, 3);
+            this.PB3Test.Location = new System.Drawing.Point(589, 9);
             this.PB3Test.Name = "PB3Test";
-            this.PB3Test.Size = new System.Drawing.Size(179, 117);
+            this.PB3Test.Size = new System.Drawing.Size(260, 258);
             this.PB3Test.TabIndex = 24;
             this.PB3Test.TabStop = false;
             this.PB3Test.Click += new System.EventHandler(this.PB3Test_Click);
             // 
             // PB3X
             // 
-            this.PB3X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB3X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB3X.Location = new System.Drawing.Point(426, 3);
+            this.PB3X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB3X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB3X.Location = new System.Drawing.Point(589, 12);
             this.PB3X.Name = "PB3X";
-            this.PB3X.Size = new System.Drawing.Size(179, 117);
+            this.PB3X.Size = new System.Drawing.Size(260, 258);
             this.PB3X.TabIndex = 25;
             this.PB3X.TabStop = false;
             this.PB3X.Visible = false;
             // 
             // PB3O
             // 
-            this.PB3O.BackgroundImage = global::Final.Properties.Resources.o;
+            this.PB3O.BackgroundImage = global::Final.Properties.Resources.joker3;
             this.PB3O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB3O.Location = new System.Drawing.Point(426, 3);
+            this.PB3O.Location = new System.Drawing.Point(589, 9);
             this.PB3O.Name = "PB3O";
-            this.PB3O.Size = new System.Drawing.Size(179, 117);
+            this.PB3O.Size = new System.Drawing.Size(260, 258);
             this.PB3O.TabIndex = 26;
             this.PB3O.TabStop = false;
             this.PB3O.Visible = false;
             // 
             // PB4X
             // 
-            this.PB4X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB4X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB4X.Location = new System.Drawing.Point(7, 158);
+            this.PB4X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB4X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB4X.Location = new System.Drawing.Point(12, 299);
             this.PB4X.Name = "PB4X";
-            this.PB4X.Size = new System.Drawing.Size(179, 117);
+            this.PB4X.Size = new System.Drawing.Size(260, 258);
             this.PB4X.TabIndex = 27;
             this.PB4X.TabStop = false;
             this.PB4X.Visible = false;
             // 
             // PB5Test
             // 
-            this.PB5Test.Location = new System.Drawing.Point(216, 167);
+            this.PB5Test.Location = new System.Drawing.Point(298, 299);
             this.PB5Test.Name = "PB5Test";
-            this.PB5Test.Size = new System.Drawing.Size(179, 117);
+            this.PB5Test.Size = new System.Drawing.Size(260, 257);
             this.PB5Test.TabIndex = 28;
             this.PB5Test.TabStop = false;
             this.PB5Test.Click += new System.EventHandler(this.PB5Test_Click);
             // 
             // PB6Test
             // 
-            this.PB6Test.Location = new System.Drawing.Point(426, 167);
+            this.PB6Test.Location = new System.Drawing.Point(589, 299);
             this.PB6Test.Name = "PB6Test";
-            this.PB6Test.Size = new System.Drawing.Size(179, 117);
+            this.PB6Test.Size = new System.Drawing.Size(260, 249);
             this.PB6Test.TabIndex = 29;
             this.PB6Test.TabStop = false;
             this.PB6Test.Click += new System.EventHandler(this.PB6Test_Click);
             // 
             // PB8Test
             // 
-            this.PB8Test.Location = new System.Drawing.Point(216, 321);
+            this.PB8Test.Location = new System.Drawing.Point(295, 586);
             this.PB8Test.Name = "PB8Test";
-            this.PB8Test.Size = new System.Drawing.Size(179, 117);
+            this.PB8Test.Size = new System.Drawing.Size(263, 248);
             this.PB8Test.TabIndex = 30;
             this.PB8Test.TabStop = false;
             this.PB8Test.Click += new System.EventHandler(this.PB8Test_Click);
             // 
             // PB9Test
             // 
-            this.PB9Test.Location = new System.Drawing.Point(426, 321);
+            this.PB9Test.Location = new System.Drawing.Point(589, 585);
             this.PB9Test.Name = "PB9Test";
-            this.PB9Test.Size = new System.Drawing.Size(179, 117);
+            this.PB9Test.Size = new System.Drawing.Size(260, 258);
             this.PB9Test.TabIndex = 31;
             this.PB9Test.TabStop = false;
             this.PB9Test.Click += new System.EventHandler(this.PB9Test_Click);
             // 
             // PB5X
             // 
-            this.PB5X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB5X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB5X.Location = new System.Drawing.Point(216, 167);
+            this.PB5X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB5X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB5X.Location = new System.Drawing.Point(298, 299);
             this.PB5X.Name = "PB5X";
-            this.PB5X.Size = new System.Drawing.Size(179, 117);
+            this.PB5X.Size = new System.Drawing.Size(252, 258);
             this.PB5X.TabIndex = 32;
             this.PB5X.TabStop = false;
             this.PB5X.Visible = false;
             // 
             // PB5O
             // 
-            this.PB5O.BackgroundImage = global::Final.Properties.Resources.o;
+            this.PB5O.BackgroundImage = global::Final.Properties.Resources.joker3;
             this.PB5O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB5O.Location = new System.Drawing.Point(216, 167);
+            this.PB5O.Location = new System.Drawing.Point(298, 299);
             this.PB5O.Name = "PB5O";
-            this.PB5O.Size = new System.Drawing.Size(179, 117);
+            this.PB5O.Size = new System.Drawing.Size(260, 258);
             this.PB5O.TabIndex = 33;
             this.PB5O.TabStop = false;
             this.PB5O.Visible = false;
             // 
             // PB6O
             // 
-            this.PB6O.BackgroundImage = global::Final.Properties.Resources.o;
+            this.PB6O.BackgroundImage = global::Final.Properties.Resources.joker3;
             this.PB6O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB6O.Location = new System.Drawing.Point(426, 167);
+            this.PB6O.Location = new System.Drawing.Point(589, 299);
             this.PB6O.Name = "PB6O";
-            this.PB6O.Size = new System.Drawing.Size(179, 117);
+            this.PB6O.Size = new System.Drawing.Size(260, 258);
             this.PB6O.TabIndex = 34;
             this.PB6O.TabStop = false;
             this.PB6O.Visible = false;
             // 
             // PB6X
             // 
-            this.PB6X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB6X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB6X.Location = new System.Drawing.Point(426, 167);
+            this.PB6X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB6X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB6X.Location = new System.Drawing.Point(589, 299);
             this.PB6X.Name = "PB6X";
-            this.PB6X.Size = new System.Drawing.Size(179, 117);
+            this.PB6X.Size = new System.Drawing.Size(260, 258);
             this.PB6X.TabIndex = 35;
             this.PB6X.TabStop = false;
             this.PB6X.Visible = false;
             // 
             // PB7O
             // 
-            this.PB7O.BackgroundImage = global::Final.Properties.Resources.o;
+            this.PB7O.BackgroundImage = global::Final.Properties.Resources.joker3;
             this.PB7O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB7O.Location = new System.Drawing.Point(6, 321);
+            this.PB7O.Location = new System.Drawing.Point(8, 585);
             this.PB7O.Name = "PB7O";
-            this.PB7O.Size = new System.Drawing.Size(179, 117);
+            this.PB7O.Size = new System.Drawing.Size(264, 258);
             this.PB7O.TabIndex = 36;
             this.PB7O.TabStop = false;
             this.PB7O.Visible = false;
             // 
             // PB7X
             // 
-            this.PB7X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB7X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB7X.Location = new System.Drawing.Point(7, 321);
+            this.PB7X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB7X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB7X.Location = new System.Drawing.Point(8, 585);
             this.PB7X.Name = "PB7X";
-            this.PB7X.Size = new System.Drawing.Size(179, 117);
+            this.PB7X.Size = new System.Drawing.Size(264, 258);
             this.PB7X.TabIndex = 37;
             this.PB7X.TabStop = false;
             this.PB7X.Visible = false;
             // 
             // PB8X
             // 
-            this.PB8X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB8X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB8X.Location = new System.Drawing.Point(216, 321);
+            this.PB8X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB8X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB8X.Location = new System.Drawing.Point(295, 586);
             this.PB8X.Name = "PB8X";
-            this.PB8X.Size = new System.Drawing.Size(179, 117);
+            this.PB8X.Size = new System.Drawing.Size(260, 257);
             this.PB8X.TabIndex = 38;
             this.PB8X.TabStop = false;
             this.PB8X.Visible = false;
             // 
             // PB9X
             // 
-            this.PB9X.BackgroundImage = global::Final.Properties.Resources.x;
-            this.PB9X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB9X.Location = new System.Drawing.Point(422, 321);
+            this.PB9X.BackgroundImage = global::Final.Properties.Resources.batman;
+            this.PB9X.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB9X.Location = new System.Drawing.Point(589, 585);
             this.PB9X.Name = "PB9X";
-            this.PB9X.Size = new System.Drawing.Size(179, 117);
+            this.PB9X.Size = new System.Drawing.Size(260, 258);
             this.PB9X.TabIndex = 39;
             this.PB9X.TabStop = false;
             this.PB9X.Visible = false;
             // 
             // PB8O
             // 
-            this.PB8O.BackgroundImage = global::Final.Properties.Resources.o;
+            this.PB8O.BackgroundImage = global::Final.Properties.Resources.joker3;
             this.PB8O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB8O.Location = new System.Drawing.Point(216, 321);
+            this.PB8O.Location = new System.Drawing.Point(295, 585);
             this.PB8O.Name = "PB8O";
-            this.PB8O.Size = new System.Drawing.Size(179, 117);
+            this.PB8O.Size = new System.Drawing.Size(260, 257);
             this.PB8O.TabIndex = 40;
             this.PB8O.TabStop = false;
             this.PB8O.Visible = false;
             // 
             // PB9O
             // 
-            this.PB9O.BackgroundImage = global::Final.Properties.Resources.o;
-            this.PB9O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB9O.Location = new System.Drawing.Point(422, 321);
+            this.PB9O.BackgroundImage = global::Final.Properties.Resources.joker3;
+            this.PB9O.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PB9O.Location = new System.Drawing.Point(589, 585);
             this.PB9O.Name = "PB9O";
-            this.PB9O.Size = new System.Drawing.Size(179, 117);
+            this.PB9O.Size = new System.Drawing.Size(260, 258);
             this.PB9O.TabIndex = 41;
             this.PB9O.TabStop = false;
             this.PB9O.Visible = false;
@@ -423,9 +423,9 @@
             // 
             this.column1Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.column1Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.column1Win.Location = new System.Drawing.Point(7, 48);
+            this.column1Win.Location = new System.Drawing.Point(6, 123);
             this.column1Win.Name = "column1Win";
-            this.column1Win.Size = new System.Drawing.Size(598, 23);
+            this.column1Win.Size = new System.Drawing.Size(841, 23);
             this.column1Win.TabIndex = 42;
             this.column1Win.Visible = false;
             // 
@@ -433,9 +433,9 @@
             // 
             this.row2Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.row2Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.row2Win.Location = new System.Drawing.Point(298, -1);
+            this.row2Win.Location = new System.Drawing.Point(422, 18);
             this.row2Win.Name = "row2Win";
-            this.row2Win.Size = new System.Drawing.Size(18, 452);
+            this.row2Win.Size = new System.Drawing.Size(18, 826);
             this.row2Win.TabIndex = 45;
             this.row2Win.Visible = false;
             // 
@@ -443,9 +443,9 @@
             // 
             this.row3Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.row3Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.row3Win.Location = new System.Drawing.Point(507, 1);
+            this.row3Win.Location = new System.Drawing.Point(714, 9);
             this.row3Win.Name = "row3Win";
-            this.row3Win.Size = new System.Drawing.Size(18, 452);
+            this.row3Win.Size = new System.Drawing.Size(18, 834);
             this.row3Win.TabIndex = 46;
             this.row3Win.Visible = false;
             // 
@@ -453,18 +453,18 @@
             // 
             this.row1Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.row1Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.row1Win.Location = new System.Drawing.Point(85, 1);
+            this.row1Win.Location = new System.Drawing.Point(126, 18);
             this.row1Win.Name = "row1Win";
-            this.row1Win.Size = new System.Drawing.Size(18, 452);
+            this.row1Win.Size = new System.Drawing.Size(18, 826);
             this.row1Win.TabIndex = 47;
             this.row1Win.Visible = false;
             // 
             // column3Win
             // 
             this.column3Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.column3Win.Location = new System.Drawing.Point(6, 374);
+            this.column3Win.Location = new System.Drawing.Point(12, 699);
             this.column3Win.Name = "column3Win";
-            this.column3Win.Size = new System.Drawing.Size(598, 23);
+            this.column3Win.Size = new System.Drawing.Size(835, 23);
             this.column3Win.TabIndex = 48;
             this.column3Win.Visible = false;
             // 
@@ -472,9 +472,9 @@
             // 
             this.column2Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.column2Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.column2Win.Location = new System.Drawing.Point(6, 214);
+            this.column2Win.Location = new System.Drawing.Point(12, 417);
             this.column2Win.Name = "column2Win";
-            this.column2Win.Size = new System.Drawing.Size(598, 23);
+            this.column2Win.Size = new System.Drawing.Size(835, 23);
             this.column2Win.TabIndex = 49;
             this.column2Win.Visible = false;
             // 
@@ -482,9 +482,9 @@
             // 
             this.pb1Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.pb1Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pb1Win.Location = new System.Drawing.Point(12, 48);
+            this.pb1Win.Location = new System.Drawing.Point(12, 123);
             this.pb1Win.Name = "pb1Win";
-            this.pb1Win.Size = new System.Drawing.Size(179, 23);
+            this.pb1Win.Size = new System.Drawing.Size(256, 23);
             this.pb1Win.TabIndex = 50;
             this.pb1Win.Visible = false;
             // 
@@ -492,9 +492,9 @@
             // 
             this.pb5Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.pb5Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pb5Win.Location = new System.Drawing.Point(216, 214);
+            this.pb5Win.Location = new System.Drawing.Point(295, 417);
             this.pb5Win.Name = "pb5Win";
-            this.pb5Win.Size = new System.Drawing.Size(179, 23);
+            this.pb5Win.Size = new System.Drawing.Size(263, 23);
             this.pb5Win.TabIndex = 51;
             this.pb5Win.Visible = false;
             // 
@@ -502,9 +502,9 @@
             // 
             this.pb9Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.pb9Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pb9Win.Location = new System.Drawing.Point(426, 374);
+            this.pb9Win.Location = new System.Drawing.Point(589, 699);
             this.pb9Win.Name = "pb9Win";
-            this.pb9Win.Size = new System.Drawing.Size(173, 23);
+            this.pb9Win.Size = new System.Drawing.Size(260, 23);
             this.pb9Win.TabIndex = 52;
             this.pb9Win.Visible = false;
             // 
@@ -512,9 +512,9 @@
             // 
             this.pb3Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.pb3Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pb3Win.Location = new System.Drawing.Point(422, 48);
+            this.pb3Win.Location = new System.Drawing.Point(589, 123);
             this.pb3Win.Name = "pb3Win";
-            this.pb3Win.Size = new System.Drawing.Size(182, 23);
+            this.pb3Win.Size = new System.Drawing.Size(260, 23);
             this.pb3Win.TabIndex = 53;
             this.pb3Win.Visible = false;
             // 
@@ -522,9 +522,9 @@
             // 
             this.pb7Win.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.pb7Win.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pb7Win.Location = new System.Drawing.Point(12, 374);
+            this.pb7Win.Location = new System.Drawing.Point(6, 696);
             this.pb7Win.Name = "pb7Win";
-            this.pb7Win.Size = new System.Drawing.Size(173, 23);
+            this.pb7Win.Size = new System.Drawing.Size(266, 26);
             this.pb7Win.TabIndex = 54;
             this.pb7Win.Visible = false;
             // 
@@ -532,7 +532,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 450);
+            this.ClientSize = new System.Drawing.Size(859, 855);
             this.Controls.Add(this.pb7Win);
             this.Controls.Add(this.pb3Win);
             this.Controls.Add(this.pb9Win);

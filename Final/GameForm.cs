@@ -128,7 +128,7 @@ namespace Final
                     o = PB8O;
                     x = PB8X;
                 }
-                else
+                else if(slot == 9)
                 {
                     o = PB9O;
                     x = PB9X;
@@ -172,7 +172,7 @@ namespace Final
                     else
                     {
                         //if the slot is taken up, generate another number
-                        decideActionFromComputerPick(PB3O, PB3X);
+                        decideActionFromComputerPick(PB4O, PB4X);
                     }
                 }
             }
@@ -253,13 +253,8 @@ namespace Final
                 StreamWriter outputFile;
                 //create file
                 outputFile = File.AppendText("Player1WinLossRecord.txt");
-                //create a streamReader variable
-                StreamReader reader = File.OpenText("PlayerNames.txt");
-                //connect the names on the file to variables
-                string player1 = reader.ReadLine();
-                string player2 = reader.ReadLine();
-                reader.Close();
-                MessageBox.Show(player1 + " is the winner!");
+                //display the winner
+                MessageBox.Show("Batman is the winner!");
                 //write 'win' to txt file
                 outputFile.WriteLine("Win");
                 //close file
@@ -289,11 +284,8 @@ namespace Final
                 outputFile = File.AppendText("Player1WinLossRecord.txt");
                 //create a streamReader variable
                 StreamReader reader = File.OpenText("PlayerNames.txt");
-                //connect the names on the file to variables
-                string player1 = reader.ReadLine();
-                string player2 = reader.ReadLine();
-                reader.Close();
-                MessageBox.Show(player2 + " is the winner!");
+                //display the winner
+                MessageBox.Show("Joker is the winner!");
                 //write 'loss' to txt file
                 outputFile.WriteLine("Loss");
                 //close file
@@ -319,7 +311,8 @@ namespace Final
                 outputFile.Close();
                 //refresh game in case users want to play again
                 refreshGame();
-                //open next form
+                //open next form and hide current form
+                this.Hide();
                 scoreForm.ShowDialog();
             }
         }
@@ -540,7 +533,7 @@ namespace Final
             //close the file
             outputFile.Close();
             //open player1winlossrecord.txt file
-            StreamReader reader = File.OpenText("PlayerNames.txt");
+            StreamReader reader = File.OpenText("PlayerCBDecision.txt");
             //scan whether pvp or pvc is written
             while (!reader.EndOfStream)
             {

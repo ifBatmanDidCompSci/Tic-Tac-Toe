@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Final
 {
     public partial class playerScoreForm : Form
     {
+        //for sound if batman or joker wins
+        SoundPlayer batmanWins = new SoundPlayer("ACBatmanWins.wav");
+        SoundPlayer jokerWins = new SoundPlayer("JokerWins2.wav");
 
         public playerScoreForm()
         {
@@ -20,14 +24,8 @@ namespace Final
 
         private void playerScoreForm_Load(object sender, EventArgs e)
         {
-            //create a streamReader variable
-            StreamReader reader = File.OpenText("PlayerNames.txt");
-            //connect the names on the file to variables
-            string player1 = reader.ReadLine();
-            string player2 = reader.ReadLine();
-            reader.Close();
-            player1Lab.Text = player1 + ":";
-            player2Lab.Text = player2 + ":";
+            player1Lab.Text = "Batman:";
+            player2Lab.Text = "Joker:";
             //variables to count wins and losses of player 1
             int winCount = 0;
             int lossCount = 0;
@@ -48,11 +46,14 @@ namespace Final
                 //if the string reads win
                 if(s == "Win")
                 {
+                    //add ACBatmanWins sound
+                    
                     //add 1 to win count
                     winCount++;
                 }
                 else if(s == "Loss")
                 {
+                    
                     //add 1 to loss count
                     lossCount++;
                 }
@@ -77,6 +78,7 @@ namespace Final
         {
             //go back to second form to play another game
             this.Close();
+
         }
     }
 }
