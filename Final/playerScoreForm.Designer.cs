@@ -34,11 +34,12 @@
             this.player1ScoreLabel = new System.Windows.Forms.Label();
             this.player2Lab = new System.Windows.Forms.Label();
             this.player1Lab = new System.Windows.Forms.Label();
+            this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // newGameButton
             // 
-            this.newGameButton.Location = new System.Drawing.Point(359, 126);
+            this.newGameButton.Location = new System.Drawing.Point(386, 27);
             this.newGameButton.Name = "newGameButton";
             this.newGameButton.Size = new System.Drawing.Size(182, 89);
             this.newGameButton.TabIndex = 1;
@@ -96,11 +97,22 @@
             this.player1Lab.TabIndex = 6;
             this.player1Lab.Text = "Player 1:";
             // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(386, 212);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(182, 89);
+            this.exitButton.TabIndex = 7;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click_1);
+            // 
             // playerScoreForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(557, 343);
+            this.ClientSize = new System.Drawing.Size(588, 331);
+            this.Controls.Add(this.exitButton);
             this.Controls.Add(this.player1Lab);
             this.Controls.Add(this.player2Lab);
             this.Controls.Add(this.player1ScoreLabel);
@@ -122,5 +134,6 @@
         private Label player1ScoreLabel;
         private Label player2Lab;
         private Label player1Lab;
+        private Button exitButton;
     }
 }

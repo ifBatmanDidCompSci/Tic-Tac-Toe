@@ -16,6 +16,8 @@ namespace Final
         //for sound if batman or joker wins
         SoundPlayer batmanWins = new SoundPlayer("ACBatmanWins.wav");
         SoundPlayer jokerWins = new SoundPlayer("JokerWins2.wav");
+        //make a bool variable in case the exit button is hit
+        bool exitApp = false;
 
         public playerScoreForm()
         {
@@ -57,7 +59,6 @@ namespace Final
                     //add 1 to loss count
                     lossCount++;
                 }
-                //ADD SOME KIND OF A WIN PERCENTAGE COUNTER TO MAKE USE OF FILE AND LIST FOR ASSIGNMENT
             }
             //close file
             inputFile.Close();
@@ -70,15 +71,17 @@ namespace Final
             player2ScoreLabel.Text = lossCount.ToString();
         }
 
-        private void exitButton_Click(object sender, EventArgs e)
-        {
-        }
 
         private void newGameButton_Click(object sender, EventArgs e)
         {
             //go back to second form to play another game
             this.Close();
+        }
 
+        private void exitButton_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+            jokerWins.PlaySync();
         }
     }
 }

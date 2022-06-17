@@ -81,7 +81,7 @@ namespace Final
         }
         private void decideActionFromComputerPick(PictureBox o, PictureBox x)
         {
-            if (!playerVsPlayer)
+            if (!playerVsPlayer && counter % 2 != 0 && slotCount != 9)
             {
                 //generate a random number
                 Random rand = new Random();
@@ -261,8 +261,10 @@ namespace Final
                 outputFile.Close();
                 //refresh game in case users want to play again
                 refreshGame();
-                //open next form
+                //open the next form and hide the current form
+                this.Hide();
                 scoreForm.ShowDialog();
+                this.Show();
             } 
         }
         private void detectOWin(PictureBox p1o, PictureBox p2o, PictureBox p3o)
@@ -282,8 +284,6 @@ namespace Final
                 StreamWriter outputFile;
                 //create file
                 outputFile = File.AppendText("Player1WinLossRecord.txt");
-                //create a streamReader variable
-                StreamReader reader = File.OpenText("PlayerNames.txt");
                 //display the winner
                 MessageBox.Show("Joker is the winner!");
                 //write 'loss' to txt file
@@ -292,8 +292,10 @@ namespace Final
                 outputFile.Close();
                 //refresh game in case users want to play again
                 refreshGame();
-                //open next form
+                //open the next form and hide the current form
+                this.Hide();
                 scoreForm.ShowDialog();
+                this.Show();
             }
         }
         private void detectTie()
@@ -311,9 +313,10 @@ namespace Final
                 outputFile.Close();
                 //refresh game in case users want to play again
                 refreshGame();
-                //open next form and hide current form
+                //open the next form and hide the current form
                 this.Hide();
                 scoreForm.ShowDialog();
+                this.Show();
             }
         }
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -546,6 +549,7 @@ namespace Final
                     playerVsPlayer = false;
                 }
             }
+            reader.Close();
         }
     }
 }

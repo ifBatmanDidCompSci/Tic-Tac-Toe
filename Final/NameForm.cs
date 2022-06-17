@@ -13,7 +13,6 @@ namespace Final
         SoundPlayer sound = new SoundPlayer("batmanSTTrim.wav");
         //bool variables that will be useful if the user chooses to play against a computer
         bool easyDifficulty, hardDifficulty = false;
-        string lkajdlkjal;
         public NameForm()
         {
             InitializeComponent();
@@ -24,7 +23,15 @@ namespace Final
         }
         private void pvpCB_CheckedChanged(object sender, EventArgs e)
         {
-            difficultyDecisionFollowThrough();
+            //create a file and write which checkbox was chosen to that file
+            StreamWriter inputFile = File.CreateText("PlayerCBDecision.txt");
+            inputFile.WriteLine("pvp.Checked");
+            //close the file
+            inputFile.Close();
+            //open GameForm and hide this form
+            this.Hide();
+            gameForm.ShowDialog();
+            this.Show();
         }
 
         private void pvcCB_CheckedChanged(object sender, EventArgs e)
@@ -32,18 +39,6 @@ namespace Final
             //let the user choose difficulty
             easyDifficultyRB.Visible = true;
             hardDifficultyRB.Visible = true;
-
-            //mark the correct bool variable true depending on the users choice
-            if (easyDifficultyRB.Checked)
-            {
-                easyDifficulty = true;
-                //ONCE THE USER CHOOSES THEIR DIFFICULTY, LET THE GAME BEGIN
-            }
-            else if (hardDifficultyRB.Checked)
-            {
-                hardDifficulty = true;
-                
-            }
 
         }
         private void difficultyDecisionFollowThrough()
@@ -56,11 +51,20 @@ namespace Final
             //open GameForm and hide this form
             this.Hide();
             gameForm.ShowDialog();
-            this.Show();
         }
         private void player1pvcTB_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void easyDifficultyRB_CheckedChanged(object sender, EventArgs e)
+        {
+            difficultyDecisionFollowThrough();
+        }
+
+        private void hardDifficultyRB_CheckedChanged(object sender, EventArgs e)
+        {
+            difficultyDecisionFollowThrough();
         }
 
         private void NameForm_Load(object sender, EventArgs e)

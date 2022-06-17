@@ -92,6 +92,7 @@
             this.hardDifficultyRB.Text = "Hard Difficulty";
             this.hardDifficultyRB.UseVisualStyleBackColor = true;
             this.hardDifficultyRB.Visible = false;
+            this.hardDifficultyRB.CheckedChanged += new System.EventHandler(this.hardDifficultyRB_CheckedChanged);
             // 
             // easyDifficultyRB
             // 
@@ -104,6 +105,7 @@
             this.easyDifficultyRB.Text = "Easy Difficulty";
             this.easyDifficultyRB.UseVisualStyleBackColor = true;
             this.easyDifficultyRB.Visible = false;
+            this.easyDifficultyRB.CheckedChanged += new System.EventHandler(this.easyDifficultyRB_CheckedChanged);
             // 
             // NameForm
             // 
