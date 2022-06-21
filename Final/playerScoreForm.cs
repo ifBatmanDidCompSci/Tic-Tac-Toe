@@ -82,7 +82,6 @@ namespace Final
         {
             Application.Exit();
             jokerWins.PlaySync();
-            MessageBox.Show("lkadhlkafs");
         }
     }
 }
